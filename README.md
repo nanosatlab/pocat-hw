@@ -1,2 +1,2 @@
-# 3CatNXT
-IEEE PocketQubes
+# 3CatNXT PocketQubes Project
+IEEE PocketQubes hardware repository 
