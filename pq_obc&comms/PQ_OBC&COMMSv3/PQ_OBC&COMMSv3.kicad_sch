@@ -3383,7 +3383,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid d198de37-0e09-48c7-8ac6-e0e4bfe919a2)
   )
-  (text "Current Limit Switch" (at 326.39 142.24 0)
+  (text "PoL" (at 326.39 142.24 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d2c0be32-e1aa-4dfb-b8b1-e687c2b60c8b)
   )
