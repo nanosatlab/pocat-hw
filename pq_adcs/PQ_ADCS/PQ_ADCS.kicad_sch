@@ -4142,7 +4142,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 214.63 231.14 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3b73858a-7418-425d-806c-fd6e80d2efd7)
     (property "Reference" "J2" (id 0) (at 213.36 213.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
