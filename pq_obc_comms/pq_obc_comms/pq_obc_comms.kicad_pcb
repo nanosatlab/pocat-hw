@@ -58,6 +58,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
+    (grid_origin 80 80)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -2918,7 +2919,7 @@
     (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 139bda07-eafc-4106-b3b9-49c9c5a17ca5) (hatch full 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour allowed) (footprints allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -2937,7 +2938,7 @@
     (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 6bb3316a-4d61-409b-9d16-a2849d05d212) (hatch full 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour allowed) (footprints allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -4473,7 +4474,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 427845a2-31b5-4450-81c8-03acfc4fbe9e) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.3)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -16618,7 +16619,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp d5c46da3-f38a-4e08-b44b-9d4d9dded553) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
