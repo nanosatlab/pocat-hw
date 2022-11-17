@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 41,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "ffcff5f_ffffffff",
+    "visible_layers": "7ffffff_8000001f",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "PQ_ADCS.kicad_prl",
+    "filename": "PQ_Lat_Board.kicad_prl",
     "version": 3
   },
   "project": {
