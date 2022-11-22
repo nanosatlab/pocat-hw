@@ -1032,6 +1032,12 @@
     (uuid f337051d-00e2-44ff-a5be-fa41e306910d)
   )
 
+  (text "Change temperature sensor footprint\nBattery connector\nDelete pull-ups"
+    (at 180.34 175.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b4cfe612-f96f-4ea8-a3b5-459d804de4d9)
+  )
+
   (label "GND" (at 105.41 71.12 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c80f57c-c49e-46bb-83fa-52f1cea707dc)
