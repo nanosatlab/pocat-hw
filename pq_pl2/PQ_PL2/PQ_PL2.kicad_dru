@@ -1,11 +1,11 @@
-#(version 2)
+(version 1)
 
-# Clearance for 50 ohm RF pads 
-#(rule "RF Tracks Clearance"
-#(condition "A.Type == 'Zone' && B.Type == 'Pad' && A.NetClass == '50ohm'")
-#  (constraint clearance (min 6mil)))
+# Clearance for the RFIN pad MAX2121
+(rule "MAX2121 Pads Clearance"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.NetClass == '50ohm'")
+	(constraint clearance (min 0.175mm)))
 
-# Clearance for 75 ohm RF pads 
-#(rule "RF Tracks Clearance"
-#  (condition "A.Type == 'Zone' && B.Type == 'Pad' && A.NetClass == '75ohm'")
-#  (constraint clearance (min 6mil)))
+# Clearance for 75 ohm RF pads MAX2121 and LT5537
+(rule "75ohm Tracks Clearance"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.NetClass == '75ohm'")
+	(constraint clearance (min 6mil)))
