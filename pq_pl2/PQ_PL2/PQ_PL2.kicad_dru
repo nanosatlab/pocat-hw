@@ -1,16 +1,11 @@
-(version 1)
+#(version 2)
 
-# Clearance for RF thin tracks to GND zone
-(rule "RF Thin Tracks Clearance"
-  (condition "A.Type == 'Track' && B.Type == 'Zone' && A.NetClass == 'RF' && A.Width == 15mil")
-  (constraint clearance (min 8mil)))
+# Clearance for 50 ohm RF pads 
+#(rule "RF Tracks Clearance"
+#(condition "A.Type == 'Zone' && B.Type == 'Pad' && A.NetClass == '50ohm'")
+#  (constraint clearance (min 6mil)))
 
-# Pad to Pad clearance
-(rule "Pad to Pad/Track Clearance"
-  (condition "A.Type == 'Pad' && (B.Type == 'Pad' || B.Type == 'Track')")
-  (constraint clearance (min 6mil)))
-
-# Clearance for RF tracks to GND zone
-(rule "RF Tracks Clearance"
-  (condition "A.Type == 'Track' && B.Type == 'Zone' && A.NetClass == 'RF'")
-  (constraint clearance (min 10mil)))
+# Clearance for 75 ohm RF pads 
+#(rule "RF Tracks Clearance"
+#  (condition "A.Type == 'Zone' && B.Type == 'Pad' && A.NetClass == '75ohm'")
+#  (constraint clearance (min 6mil)))
