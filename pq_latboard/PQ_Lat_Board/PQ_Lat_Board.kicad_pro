@@ -58,7 +58,8 @@
       ],
       "drc_exclusions": [
         "lib_footprint_mismatch|121000000|87181250|c3d95ff1-022b-4919-a685-416d30f6b09f|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|122694000|62000000|577a57bd-4924-4c7e-b1d8-f07e5331882e|29a2c338-cba9-462f-8202-5d1b905e269a"
+        "silk_edge_clearance|122694000|62000000|577a57bd-4924-4c7e-b1d8-f07e5331882e|29a2c338-cba9-462f-8202-5d1b905e269a",
+        "starved_thermal|97580000|50884000|7962907e-daf4-442a-9aa7-694227549556|cf29c055-794a-4320-9108-2e41559372ea|F.Cu"
       ],
       "meta": {
         "version": 2
@@ -84,8 +85,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
