@@ -57,7 +57,8 @@
         }
       ],
       "drc_exclusions": [
-        "unconnected_items|110259539|40100500|0e23e123-31d7-4ee6-acab-b92d8a7c0b8d|0e23e123-31d7-4ee6-acab-b92d8a7c0b8d"
+        "clearance|83199882|34776711|71f30086-45ec-46b0-b849-65ddb3c242a2|0e23e123-31d7-4ee6-acab-b92d8a7c0b8d",
+        "unconnected_items|108596468|41687500|0e23e123-31d7-4ee6-acab-b92d8a7c0b8d|96b1c138-6253-400f-b182-a753b1b9112c"
       ],
       "meta": {
         "version": 2
