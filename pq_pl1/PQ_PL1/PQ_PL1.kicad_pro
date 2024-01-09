@@ -445,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_PL1.step",
+      "step": "../../assembly/payloads/pl1/pq-pl1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

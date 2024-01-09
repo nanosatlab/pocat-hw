@@ -499,7 +499,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_EPS.step",
+      "step": "../../assembly/eps/pq_eps.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -602,7 +602,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_PL2.step",
+      "step": "../../assembly/payloads/pl2/pq-pl2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

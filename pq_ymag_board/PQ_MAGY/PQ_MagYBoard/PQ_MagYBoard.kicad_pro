@@ -450,7 +450,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_MagYBoard.step",
+      "step": "../../../assembly/ymag/ymag-board/PQ_MagYBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

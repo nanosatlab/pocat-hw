@@ -452,7 +452,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_BotBoard.step",
+      "step": "../../assembly/bottom/pq-bottom.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

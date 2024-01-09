@@ -602,7 +602,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_ADCS.step",
+      "step": "../../assembly/adcs/pq-adcs.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -447,7 +447,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_Lat_Board.step",
+      "step": "../../assembly/lateral/PQ_Lat_Board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

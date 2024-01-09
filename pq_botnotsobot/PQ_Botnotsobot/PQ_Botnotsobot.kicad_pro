@@ -445,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "PQ_Botnotsobot.step",
+      "step": "../../assembly/slider/pq-slider.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
