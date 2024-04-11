@@ -460,7 +460,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../assembly/obc&comms/obc&comms-board/pq_obc_comms.step",
+      "step": "pq_obc_comms.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

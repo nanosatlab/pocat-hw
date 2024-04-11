@@ -6653,7 +6653,7 @@
     (property "Value" "ECS-120-18-33-JEM-TR3" (at 247.65 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-nsl_miscellaneous:ECX-32" (at 260.35 151.13 0)
+    (property "Footprint" "miscelaneous-nsl:ECX-32" (at 260.35 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 151.13 0)
