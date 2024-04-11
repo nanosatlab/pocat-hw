@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.6,
-          "width": 0.8
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.293
+          "min_clearance": 0.39999999999999997
         }
       },
       "diff_pair_dimensions": [
@@ -97,7 +97,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -181,10 +181,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -398,7 +394,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -413,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PQ_BotBoard.kicad_pro",
+    "filename": "PQ_Lat_Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -449,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../assembly/bottom/pq-bottom.step",
+      "step": "../../assembly/lateral/PQ_Lat_Board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -459,7 +455,7 @@
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
-      "default_line_thickness": 6.0,
+      "default_line_thickness": 10.0,
       "default_text_size": 50.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
@@ -500,7 +496,7 @@
   },
   "sheets": [
     [
-      "e40a5bef-c31a-474e-b379-53d1d13d8a60",
+      "4da848d5-e65a-4ace-88f8-d9d6d6b9afa2",
       ""
     ]
   ],
