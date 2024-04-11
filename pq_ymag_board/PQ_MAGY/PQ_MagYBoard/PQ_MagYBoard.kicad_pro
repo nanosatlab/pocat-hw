@@ -56,12 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|117926755|78802250|b5fb1087-1dbb-4f4f-a1a7-fe99f373c421|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|117952155|45802250|04eba765-96d5-41a8-bfcf-a2e264227ef9|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|85421245|78802250|a7a81e5c-babb-40b4-a366-e9f9e79f4e8b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|85649845|45802250|4e36dd2d-be60-406d-a806-0729c7bed7d8|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -450,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../assembly/ymag/ymag-board/PQ_MagYBoard.step",
+      "step": "PQ_MagYBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
