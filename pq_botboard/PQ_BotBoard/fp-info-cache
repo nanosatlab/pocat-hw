@@ -1,4 +1,4 @@
-30793387677248
+32159262257307
 symbols-nsl
 Bike
 
@@ -49,6 +49,20 @@ NSL-small
 0
 0
 symbols-nsl
+NSL_Lektron
+
+
+0
+0
+0
+symbols-nsl
+NSL_hexagon
+
+
+0
+0
+0
+symbols-nsl
 NSL_long
 
 
@@ -71,6 +85,13 @@ Prj
 0
 symbols-nsl
 Rev
+
+
+0
+0
+0
+symbols-nsl
+Snail
 
 
 0
@@ -105,21 +126,7 @@ bike_small
 0
 0
 symbols-nsl
-logo_pq
-
-
-0
-0
-0
-symbols-nsl
-pocat-lektron
-
-
-0
-0
-0
-symbols-nsl
-snail
+pocat_lektron
 
 
 0
