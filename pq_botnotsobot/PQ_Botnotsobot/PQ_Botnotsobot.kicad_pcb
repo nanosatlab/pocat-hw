@@ -52737,7 +52737,7 @@
 
   (footprint "-nsl_miscellaneous:D2FLA1" (layer "F.Cu")
     (tstamp 328afa81-dab8-490e-acbe-e65573af40dd)
-    (at 132.6388 46.2788 180)
+    (at 132.63 46.274 180)
     (descr "D2F-L-A1-2")
     (tags "Switch")
     (property "Sheetfile" "PQ_Botnotsobot.kicad_sch")
@@ -52828,7 +52828,7 @@
 
   (footprint "-nsl_miscellaneous:D2FLA" (layer "F.Cu")
     (tstamp 4e12610f-9662-4b6e-ad36-0ca3fc071f4d)
-    (at 132.6388 78.2828 180)
+    (at 132.63 78.274 180)
     (descr "D2F-L-A-3")
     (tags "Switch")
     (property "Sheetfile" "PQ_Botnotsobot.kicad_sch")
