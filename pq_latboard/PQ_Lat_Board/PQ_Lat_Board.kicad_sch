@@ -1603,10 +1603,10 @@
   (symbol (lib_id "Device:R") (at 81.28 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 043f78e8-ad16-459f-b3f7-45d72ace08f4)
-    (property "Reference" "THT1" (at 81.28 59.69 90)
+    (property "Reference" "TK1" (at 81.28 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "7.5" (at 81.28 62.23 90)
+    (property "Value" "4.7" (at 81.28 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 81.28 66.548 90)
@@ -1632,7 +1632,7 @@
     (instances
       (project "PQ_Lat_Board"
         (path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
-          (reference "THT1") (unit 1)
+          (reference "TK1") (unit 1)
         )
       )
     )
