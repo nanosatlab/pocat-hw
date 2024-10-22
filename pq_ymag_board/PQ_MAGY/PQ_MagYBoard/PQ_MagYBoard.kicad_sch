@@ -307,7 +307,7 @@
     (uuid fa0f6b61-5c4b-49c1-903c-98ffad2e7f16)
   )
 
-  (rectangle (start 87.63 125.73) (end 121.92 152.4)
+  (rectangle (start 87.63 125.73) (end 121.92 165.1)
     (stroke (width 0) (type dash))
     (fill (type none))
     (uuid 3d0facb4-43e8-4b0d-a2fa-02042db4a454)
@@ -400,6 +400,30 @@
       (project "PQ_MagYBoard"
         (path "/69ef6fcb-01e8-4c0b-998b-22cdfd5dc558"
           (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "-nsl_symbols:Silkscreen_Annotation") (at 93.98 160.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3a2f3ade-41ae-4a42-9cf0-8a108832f2d0)
+    (property "Reference" "Annotation4" (at 100.33 153.035 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "snail" (at 100.33 155.575 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "symbols-nsl:pocat_lektron" (at 93.98 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 93.98 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "PQ_MagYBoard"
+        (path "/69ef6fcb-01e8-4c0b-998b-22cdfd5dc558"
+          (reference "Annotation4") (unit 1)
         )
       )
     )
