@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DRV8214RTER")(type "KiCad")(uri "C:/Users/polfd/Downloads/DRV8214RTER")(options "")(descr ""))
+)
