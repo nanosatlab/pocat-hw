@@ -1717,248 +1717,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MIC5232-3_3YML-TR:MIC5232-3.3YML-TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MIC5232-3.3YML-TR"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SON65P200X200X95-7N-D"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/268/mic5232-1082293.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "LDO Voltage Regulators 10mA Ultra Low Iq Single uCap LDO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.95"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "998-MIC5232-3.3YMLTR"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC5232-33YML-TR?qs=U6T8BxXiZAXYr9fFo8cGBQ%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Microchip"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MIC5232-3.3YML-TR"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MIC5232-3.3YML-TR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -17.78 90)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "NC_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "NC_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -4238,311 +3996,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PMXB360ENEAZ:PMXB360ENEAZ"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "PMXB360ENEAZ"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PMXB360ENEAZ"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMXB360ENEA.pdf"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET PMXB360ENEA/SOT1215/DFN1010D-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.4"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "771-PMXB360ENEAZ"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMXB360ENEAZ?qs=gNSudQoqUYAnVQXUv%252Boahg%3D%3D"
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PMXB360ENEAZ"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "PMXB360ENEAZ_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "passive-nsl:SMM4F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5438,6 +4891,12 @@
 		(uuid "bf3d3ce1-a8aa-41b9-9002-11ad46fc48a8")
 	)
 	(junction
+		(at 158.75 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9d0d320-f4d6-4224-b38b-15fbcd2344ef")
+	)
+	(junction
 		(at 144.78 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5958,6 +5417,16 @@
 			(type default)
 		)
 		(uuid "22fad81d-d088-4582-9a77-a2a87785226e")
+	)
+	(wire
+		(pts
+			(xy 158.75 267.97) (xy 162.56 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2331d0ed-bf43-4600-9141-78167f49e3a8")
 	)
 	(wire
 		(pts
@@ -6548,6 +6017,16 @@
 			(type default)
 		)
 		(uuid "53c99cdf-5022-4aa2-9242-f4b2fffd0265")
+	)
+	(wire
+		(pts
+			(xy 157.48 267.97) (xy 158.75 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a9876a-b7c9-4067-91a1-a37f42de7863")
 	)
 	(wire
 		(pts
@@ -8271,16 +7750,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 196.85) (xy 109.22 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebbbf17d-22c1-4b7e-802f-41ae35154edd")
-	)
-	(wire
-		(pts
 			(xy 139.7 77.47) (xy 109.22 77.47)
 		)
 		(stroke
@@ -8502,6 +7971,28 @@
 		(uuid "00c35eb0-3a09-4e3f-bc1a-f41757ab1db7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 278.0914 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KILLSWITCH+"
+		(shape input)
+		(at 162.56 267.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03d7798b-abe3-4dac-bec9-74264facf423")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8824 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,28 +8345,6 @@
 		(uuid "34887200-d4f5-4fe0-9d58-96f52752ab40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 337.7406 223.1026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT_EN"
-		(shape input)
-		(at 157.48 267.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36ed9b3d-312d-4467-98c3-f6b723203b63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.5409 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,28 +8763,6 @@
 		(uuid "73565f58-3285-43c9-9388-955aefea0f17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 372.2974 196.7706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "KILLSWITCH+"
-		(shape input)
-		(at 71.12 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75b795b9-21eb-4d56-a0e2-13f73ad4612e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7976 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,28 +9564,6 @@
 			)
 		)
 	)
-	(global_label "KILLSWITCH+"
-		(shape input)
-		(at 71.12 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e42d54ac-6b10-41db-8ea8-74df74b95e1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7976 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PROG"
 		(shape input)
 		(at 299.72 55.88 0)
@@ -10223,28 +9648,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT_EN"
-		(shape input)
-		(at 91.44 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8552b04-3129-4395-ae9e-2b60b22c737e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5009 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -14795,6 +14198,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 158.75 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49cb763d-495b-4f96-9d5b-e5c545e888af")
+		(property "Reference" "#PWR03"
+			(at 158.75 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2cf134d-e138-43d0-b3ac-05774fc1e353")
+		)
+		(instances
+			(project "PQ_EPS"
+				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 285.75 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15486,70 +14954,6 @@
 			(project "PQ_EPS"
 				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
 					(reference "Annotation1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 194.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b3f8e4d-f2b0-46a1-8447-4a882cb0e838")
-		(property "Reference" "#PWR03"
-			(at 71.12 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3287cae-ec22-42da-bcf5-aadde5d2bc0c")
-		)
-		(instances
-			(project "PQ_EPS"
-				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20020,141 +19424,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MIC5232-3_3YML-TR:MIC5232-3.3YML-TR")
-		(at 71.12 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9890f710-8152-4399-aa85-6299eb0c1e7b")
-		(property "Reference" "IC3"
-			(at 86.36 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIC5232-3.3YML-TR"
-			(at 86.36 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SON65P200X200X95-7N-D"
-			(at 97.79 286.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/268/mic5232-1082293.pdf"
-			(at 97.79 386.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators 10mA Ultra Low Iq Single uCap LDO"
-			(at 71.12 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.95"
-			(at 97.79 586.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "998-MIC5232-3.3YMLTR"
-			(at 97.79 686.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC5232-33YML-TR?qs=U6T8BxXiZAXYr9fFo8cGBQ%3D%3D"
-			(at 97.79 786.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 97.79 886.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MIC5232-3.3YML-TR"
-			(at 97.79 986.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8b217ad0-531a-450b-97a1-4836f4336ea8")
-		)
-		(pin "5"
-			(uuid "da97309e-9a5b-47f0-9e02-0128135dcadc")
-		)
-		(pin "6"
-			(uuid "356216b4-e825-4cb2-8bb2-4c44776c0acf")
-		)
-		(pin "7"
-			(uuid "a83f07cd-a271-4137-b6c9-997f44386875")
-		)
-		(pin "3"
-			(uuid "7990c36b-7e55-4612-aef4-c3c3089f5093")
-		)
-		(pin "2"
-			(uuid "1a88bf5c-5e4a-4fce-ac70-5a7318ddd663")
-		)
-		(pin "1"
-			(uuid "fcb8db51-0217-4676-914f-df4adfcfe237")
-		)
-		(instances
-			(project ""
-				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-nsl_power:SIR424DP")
 		(at 330.2 97.79 270)
 		(unit 1)
@@ -21889,131 +21158,6 @@
 			(project "PQ_EPS"
 				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PMXB360ENEAZ:PMXB360ENEAZ")
-		(at 109.22 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaf2c5b5-60c7-4f54-b451-aa70ed5d9607")
-		(property "Reference" "Q2"
-			(at 120.65 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMXB360ENEAZ"
-			(at 120.65 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PMXB360ENEAZ"
-			(at 120.65 295.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMXB360ENEA.pdf"
-			(at 120.65 395.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET PMXB360ENEA/SOT1215/DFN1010D-3"
-			(at 109.22 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 120.65 595.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PMXB360ENEAZ"
-			(at 120.65 695.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMXB360ENEAZ?qs=gNSudQoqUYAnVQXUv%252Boahg%3D%3D"
-			(at 120.65 795.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 120.65 895.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PMXB360ENEAZ"
-			(at 120.65 995.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7cb70df-b7d2-4f69-b3b9-2a5a2668adff")
-		)
-		(pin "1"
-			(uuid "903208de-d659-4184-964f-834e27b83112")
-		)
-		(pin "3"
-			(uuid "f0c6cf0c-ee23-4f0b-9738-3aa30f2e39aa")
-		)
-		(instances
-			(project ""
-				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -24042,6 +23186,201 @@
 			(project "PQ_EPS"
 				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49380aa-1494-4408-b682-9c642fbd218b")
+		(property "Reference" "R5"
+			(at 161.29 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10M"
+			(at 161.29 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 156.972 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NAMEALIAS" "Value(Ω)"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM_SUPPLIER PART" "660-UR73V2ATTD75L0F"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM_SUPPLIER" "Mouser"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "LCEDA_Lib"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "R_0603_US"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM_MANUFACTURER PART" "UR73V2ATTD75L0F"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM_MANUFACTURER" "KOA Speer"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM_LINK" "https://www.mouser.es/ProductDetail/KOA-Speer/UR73V2ATTD75L0F?qs=sGAEpiMZZMvdGkrng054t0c0U24Fa%2Fv2PtepVEKuQ4tMOmwcLgCxKQ%3D%3D"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "KOA Speer"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "UR73V2ATTD75L0F"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "660-UR73V2ATTD75L0F"
+			(at 158.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ac5caa2-1006-4b31-aca8-d3d1c1923fc9")
+		)
+		(pin "2"
+			(uuid "19f09214-0dac-4955-9d38-373d7c3c9b72")
+		)
+		(instances
+			(project "PQ_EPS"
+				(path "/369ed984-4bc0-4563-9a96-3c71b74c6c81"
+					(reference "R5")
 					(unit 1)
 				)
 			)
