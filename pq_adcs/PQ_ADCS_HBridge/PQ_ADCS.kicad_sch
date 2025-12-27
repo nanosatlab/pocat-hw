@@ -9391,16 +9391,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 93.98) (xy 248.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d63c59-a246-430d-ba24-64a0c488eb89")
-	)
-	(wire
-		(pts
 			(xy 46.99 62.23) (xy 54.61 62.23)
 		)
 		(stroke
@@ -11809,7 +11799,7 @@
 		)
 		(uuid "77ec084d-3c7e-4970-820b-287fac1703d1")
 	)
-	(label "PHT8_ADCS"
+	(label "PHT6_ADCS"
 		(at 262.89 101.6 180)
 		(effects
 			(font
@@ -11859,7 +11849,7 @@
 		)
 		(uuid "8607ce90-1d6e-4804-a436-9cb2630680dd")
 	)
-	(label "PHT8_ADCS"
+	(label "PHT6_ADCS"
 		(at 30.48 163.195 180)
 		(effects
 			(font
