@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8214RTER")(type "KiCad")(uri "${KIPRJMOD}/DRV8214RTER/DRV8214RTER.kicad_sym")(options "")(descr ""))
+)
