@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MIC5232-3_3YML-TR")(type "KiCad")(uri "/home/rogeraj/Downloads/LIB_MIC5232-3.3YML-TR/MIC5232-3.3YML-TR/KiCad/MIC5232-3_3YML-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "PMXB360ENEAZ")(type "KiCad")(uri "/home/rogeraj/Downloads/LIB_PMXB360ENEAZ/PMXB360ENEAZ/KiCad/PMXB360ENEAZ.kicad_sym")(options "")(descr ""))
+)
