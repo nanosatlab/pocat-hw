@@ -267,13 +267,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.43 90)
+			(at 1.825 -0.1 180)
 			(layer "F.SilkS")
 			(uuid "f84e7da6-d600-48d1-84d1-abee746c24fc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3880,13 +3880,13 @@
 		(uuid "33c6b0e1-2743-4177-943a-73aca2dc0617")
 		(at 153.8375 98.4 180)
 		(property "Reference" "U5"
-			(at 1.225 -2.885 0)
+			(at 1.5375 -2.1 0)
 			(layer "F.SilkS")
 			(uuid "54fd3e14-9061-4a21-84b2-b48a45608492")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10224,13 +10224,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.43 0)
+			(at 0.825 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "9f29c0e5-140f-45fc-bcff-b357838d2311")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10724,13 +10724,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 0)
+			(at -2.075 0.3 0)
 			(layer "F.SilkS")
 			(uuid "bee6b28e-3ae3-406b-b33d-0c784f00f708")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11471,13 +11471,13 @@
 		(uuid "d8e7f392-b9ea-4ad6-9df3-cab535f8658a")
 		(at 158.2 105.4 180)
 		(property "Reference" "U9"
-			(at 1.225 -2.885 0)
+			(at 1.8 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "11396369-5014-4605-83d4-52b96d686437")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13005,13 +13005,13 @@
 		(uuid "e186ebbe-aab3-4269-9248-9aeeb703c392")
 		(at 159.3 99.45 180)
 		(property "Reference" "U8"
-			(at 1.225 -2.885 0)
+			(at 2.1 -1.45 0)
 			(layer "F.SilkS")
 			(uuid "1e81c7e8-5e63-4a26-8ff8-f2789d3cf32c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18517,13 +18517,13 @@
 		)
 	)
 	(gr_text "Mqt Actuators"
-		(at 157.9372 99.314 0)
+		(at 154.1 102.8 0)
 		(layer "F.SilkS")
 		(uuid "3fa0d75c-9986-4dc8-a720-6f9d95abfb9d")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -18725,7 +18725,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "40.0000 mm"
+		(gr_text "40,0000 mm"
 			(at 150.000061 64.349912 359.9996992)
 			(layer "Cmts.User")
 			(uuid "08515927-781a-4bf3-814d-fb1cfaa093c7")
@@ -18761,7 +18761,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "40.0000 mm"
+		(gr_text "40,0000 mm"
 			(at 163.25 102.2 90)
 			(layer "Cmts.User")
 			(uuid "a0845fc7-de7b-4800-aa22-66d522661c03")
