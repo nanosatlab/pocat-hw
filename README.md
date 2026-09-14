@@ -157,11 +157,3 @@ remain tracked.
 `Lateral_and_bottom_connectors`, …) which are merged into `main` once the revision passes review.
 Binary CAD files do not merge — coordinate before two people edit the same board.
 
----
-
-## Status
-
-The EPS and ADCS H-Bridge revisions have completed their design review. PL2 has been migrated off
-Altium and routed. PL3 appears here as a mechanical model only; its electronics are developed in
-[nanosatlab/pocat-rfi-5g](https://github.com/nanosatlab/pocat-rfi-5g). See the git history for the
-revision trail of each subsystem.
