@@ -77,7 +77,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|110250000|58500000|05cddda9-6821-4408-9ee2-b6fa1c28b223|e4b6fefa-e49d-4b06-9c0d-332ad947a6ee|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|91708000|66573400|05cddda9-6821-4408-9ee2-b6fa1c28b223|b9514872-512a-4b7c-b69a-d602c1e3c02c|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -284,7 +293,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|3657600|1765300|4dfd250f-5b47-469d-a6ee-5bc0069d4952|00000000-0000-0000-0000-000000000000|/369ed984-4bc0-4563-9a96-3c71b74c6c81|/369ed984-4bc0-4563-9a96-3c71b74c6c81|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -603,7 +617,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../assembly/eps/pq_eps.step",
@@ -745,7 +759,7 @@
       {
         "filename": "PQ_EPS.kicad_sch",
         "name": "PQ_EPS",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "369ed984-4bc0-4563-9a96-3c71b74c6c81"
       }
     ],
     "used_designators": "",
@@ -754,7 +768,7 @@
   "sheets": [
     [
       "369ed984-4bc0-4563-9a96-3c71b74c6c81",
-      "Root"
+      "PQ_EPS"
     ]
   ],
   "text_variables": {},
