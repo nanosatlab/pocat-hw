@@ -571,7 +571,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "specctra_dsn": "",
       "step": "pq_obc_comms.step",
       "vrml": ""

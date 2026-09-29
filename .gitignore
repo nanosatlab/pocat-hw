@@ -35,3 +35,6 @@ production/
 
 # VS Code Local History
 **/.history/
+
+# Zip archives (production exports, etc.)
+*.zip
