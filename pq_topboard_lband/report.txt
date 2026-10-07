@@ -1,0 +1,13 @@
+Info: Se ha creado el directorio de salida «C:\Users\barbe\Desktop\TopBoardLBandV9\production».
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-F_Cu.gtl'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-B_Cu.gbl'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-F_Paste.gtp'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-B_Paste.gbp'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-F_Silkscreen.gto'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-B_Silkscreen.gbo'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-F_Mask.gts'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-B_Mask.gbs'.
+Plotted to 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-Edge_Cuts.gm1'.
+Created Gerber job file 'C:\Users\barbe\Desktop\TopBoardLBandV9\production\PQ1_TopBoardV9-job.gbrjob'.
+Info: Done.
+Info: Done.

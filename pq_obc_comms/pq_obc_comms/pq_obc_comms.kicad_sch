@@ -4583,10 +4583,22 @@
 		(uuid "3f955685-ca55-445b-84a9-766af43d743c")
 	)
 	(junction
+		(at 140.97 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4079653e-f27a-4d73-8d10-991f00a93c0d")
+	)
+	(junction
 		(at 144.78 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "456930ef-d70d-4f8b-bac7-987ab2f9a733")
+	)
+	(junction
+		(at 140.97 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c267660-9a55-4402-bcdf-9018bc3a5c62")
 	)
 	(junction
 		(at 195.58 53.34)
@@ -4623,6 +4635,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d64a8ee-b077-441e-8640-27dcc45274ea")
+	)
+	(junction
+		(at 140.97 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719bf109-1b50-4019-99cc-dedf8f91022a")
 	)
 	(junction
 		(at 80.01 63.5)
@@ -4821,6 +4839,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d07209f9-e769-425a-82e9-d47451894dda")
+	)
+	(junction
+		(at 140.97 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d718e855-b2bb-42d9-9c5d-31cef7dd750a")
 	)
 	(junction
 		(at 67.31 172.72)
@@ -5088,13 +5112,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 142.24) (xy 144.78 142.24)
+			(xy 137.16 142.24) (xy 140.97 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f2da3f7-a865-44c0-8181-2c0d2710939b")
+	)
+	(wire
+		(pts
+			(xy 140.97 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f887d1a-41c9-40f4-8caf-b192b64cf5e8")
 	)
 	(wire
 		(pts
@@ -5258,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 109.22) (xy 160.02 109.22)
+			(xy 148.59 109.22) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5325,6 +5359,16 @@
 			(type default)
 		)
 		(uuid "27b6cf5c-36ab-4b91-9163-1e3c40a406ec")
+	)
+	(wire
+		(pts
+			(xy 140.97 142.24) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28192a32-786e-40ef-a11f-8d3d988855ff")
 	)
 	(wire
 		(pts
@@ -5618,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 144.78 106.68)
+			(xy 137.16 106.68) (xy 140.97 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5695,6 +5739,16 @@
 			(type default)
 		)
 		(uuid "4fb5e636-e0ec-45b6-87f7-2154958b1a41")
+	)
+	(wire
+		(pts
+			(xy 140.97 88.9) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511f5b48-5d1e-4cc9-8e0c-b940ca6c21b9")
 	)
 	(wire
 		(pts
@@ -5818,6 +5872,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 124.46) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ad1e43-2ece-4860-8608-6f4a38354edc")
+	)
+	(wire
+		(pts
 			(xy 266.7 146.05) (xy 266.7 156.21)
 		)
 		(stroke
@@ -5858,7 +5922,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 160.02 91.44)
+			(xy 148.59 91.44) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6138,6 +6202,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 106.68) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b170b70-fb2c-4429-84c7-3483af3f1416")
+	)
+	(wire
+		(pts
 			(xy 127 17.78) (xy 116.84 17.78)
 		)
 		(stroke
@@ -6208,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 144.78 124.46)
+			(xy 137.16 124.46) (xy 140.97 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6258,7 +6332,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 127) (xy 160.02 127)
+			(xy 148.59 127) (xy 160.02 127)
 		)
 		(stroke
 			(width 0)
@@ -6878,6 +6952,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5dd271-7223-47e8-a393-6510f4167c46")
+	)
+	(wire
+		(pts
 			(xy 29.21 48.26) (xy 17.78 48.26)
 		)
 		(stroke
@@ -7008,6 +7092,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 124.46) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da064d33-54d3-47a5-a9e0-1616e9a7226f")
+	)
+	(wire
+		(pts
 			(xy 25.4 86.36) (xy 46.99 86.36)
 		)
 		(stroke
@@ -7088,6 +7182,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 142.24) (xy 140.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7000015-d8b0-41b5-a3fb-0e741bd31426")
+	)
+	(wire
+		(pts
 			(xy 96.52 165.1) (xy 82.55 165.1)
 		)
 		(stroke
@@ -7098,7 +7202,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 144.78) (xy 160.02 144.78)
+			(xy 148.59 144.78) (xy 160.02 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7308,7 +7412,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 144.78 88.9)
+			(xy 137.16 88.9) (xy 140.97 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7397,7 +7501,7 @@
 		(uuid "18272eb7-8a4d-4958-8210-1f340c77000c")
 	)
 	(label "PoL_BURN_EN"
-		(at 143.51 127 0)
+		(at 148.59 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7547,7 +7651,7 @@
 		(uuid "89e0843f-bade-4c7d-9a69-6bc54b2e66ed")
 	)
 	(label "HEATER_EN"
-		(at 143.51 144.78 0)
+		(at 148.59 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7557,7 +7661,7 @@
 		(uuid "8c762359-4c0b-4b55-98b3-c755c741b5f4")
 	)
 	(label "PoL_P{slash}L_EN"
-		(at 144.78 91.44 0)
+		(at 148.59 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7657,7 +7761,7 @@
 		(uuid "c9c2d5ad-c042-4c86-95ce-79f3c5045ebe")
 	)
 	(label "PoL_ADCS_POWER_EN"
-		(at 139.7 109.22 0)
+		(at 148.59 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11461,6 +11565,176 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 144.78 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22866d46-e4c3-47f2-9f11-87463307fe4b")
+		(property "Reference" "R12"
+			(at 144.78 147.066 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 148.844 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CONTRIBUTOR" "danielCOMMS"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICESYMBOLNAME" "SG73P1JTTD1002F"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "BOM_MANUFACTURER PART" ""
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer 1" "Bourns"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CRCW040220K0FKEDC"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "71-CRCW040220K0FKEDC"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e39cbd5-a8bb-4185-a1dd-e2a86385fc0a")
+		)
+		(pin "2"
+			(uuid "63313798-2fb8-47bd-94f5-6000cda167f1")
+		)
+		(instances
+			(project "pq_obc_comms"
+				(path "/147266d0-f330-479a-98d7-fb2f63528b30"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 210.82 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -14747,6 +15021,176 @@
 			(project "pq_obc_comms"
 				(path "/147266d0-f330-479a-98d7-fb2f63528b30"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58279549-4915-4b7f-958d-1c2384c8bc56")
+		(property "Reference" "R9"
+			(at 144.78 93.726 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 95.504 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CONTRIBUTOR" "danielCOMMS"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICESYMBOLNAME" "SG73P1JTTD1002F"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "BOM_MANUFACTURER PART" ""
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer 1" "Bourns"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CRCW040220K0FKEDC"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "71-CRCW040220K0FKEDC"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56d78c96-1892-4074-afcf-447c8c813f17")
+		)
+		(pin "2"
+			(uuid "071e6b25-0b98-47b2-9e71-f3308032e8f5")
+		)
+		(instances
+			(project "pq_obc_comms"
+				(path "/147266d0-f330-479a-98d7-fb2f63528b30"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -19357,6 +19801,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 144.78 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95efc575-eeb5-411c-85ad-439ea52e8de1")
+		(property "Reference" "R10"
+			(at 144.78 111.506 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 113.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CONTRIBUTOR" "danielCOMMS"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICESYMBOLNAME" "SG73P1JTTD1002F"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "BOM_MANUFACTURER PART" ""
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer 1" "Bourns"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CRCW040220K0FKEDC"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "71-CRCW040220K0FKEDC"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20bc499a-55a1-4aad-a8d9-b5c67a65ea2c")
+		)
+		(pin "2"
+			(uuid "cda550f6-5fb0-4e35-b46e-ef8cfe95b762")
+		)
+		(instances
+			(project "pq_obc_comms"
+				(path "/147266d0-f330-479a-98d7-fb2f63528b30"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 120.65 0)
 		(unit 1)
@@ -20241,6 +20855,176 @@
 			(project "pq_obc_comms"
 				(path "/147266d0-f330-479a-98d7-fb2f63528b30"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a14abb17-fa72-4457-91e9-2bfcdbdd14cf")
+		(property "Reference" "R11"
+			(at 144.78 129.286 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 131.064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CONTRIBUTOR" "danielCOMMS"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SPICESYMBOLNAME" "SG73P1JTTD1002F"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "BOM_MANUFACTURER PART" ""
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer 1" "Bourns"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CRCW040220K0FKEDC"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "71-CRCW040220K0FKEDC"
+			(at 144.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5694347-c373-4282-97a9-b111396db311")
+		)
+		(pin "2"
+			(uuid "a5e78fea-485d-4e1f-b873-addb282ab59f")
+		)
+		(instances
+			(project "pq_obc_comms"
+				(path "/147266d0-f330-479a-98d7-fb2f63528b30"
+					(reference "R11")
 					(unit 1)
 				)
 			)
