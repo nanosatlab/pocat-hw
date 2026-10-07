@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 4.0,
-          "width": 5.0
+          "drill": 2.2,
+          "height": 4.4,
+          "width": 4.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -61,13 +61,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.293,
+          "min_clearance": 0.4,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.254,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -77,7 +77,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|111952000|55289300|7962907e-daf4-442a-9aa7-694227549556|c09664d7-6af6-404e-a133-4daf4e1b32b1|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -108,8 +113,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -122,12 +127,12 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -216,11 +221,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.25,
-        0.254,
-        1.0,
-        5.0
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -252,10 +253,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -288,7 +285,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|863600|685800|c6d0f909-65c4-49ad-b7fe-f8e8ea3427ee|00000000-0000-0000-0000-000000000000|/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2|/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -474,11 +476,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -493,7 +498,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -501,6 +506,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "error",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -514,7 +520,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PQ_BotBoard.kicad_pro",
+    "filename": "PQ_Lat_Board_Deploy.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -551,10 +557,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../pq-bottom.stl",
+      "step": "../../assembly/lateral/PQ_Lat_Board.step",
       "svg": "",
       "vrml": ""
     },
@@ -562,6 +568,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -638,9 +648,10 @@
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
-      "default_line_thickness": 6.0,
+      "default_line_thickness": 10.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -673,6 +684,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -685,16 +697,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PQ_BotBoard.kicad_sch",
-        "name": "PQ_BotBoard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "PQ_Lat_Board_Deploy.kicad_sch",
+        "name": "PQ_Lat_Board_Deploy",
+        "uuid": "4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
       }
-    ]
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
-      "e40a5bef-c31a-474e-b379-53d1d13d8a60",
-      "Root"
+      "4da848d5-e65a-4ace-88f8-d9d6d6b9afa2",
+      "PQ_Lat_Board_Deploy"
     ]
   ],
   "text_variables": {},

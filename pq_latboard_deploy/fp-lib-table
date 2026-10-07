@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "WHA_52")(type "KiCad")(uri "C:/Users/barbe/Desktop/LIB_WHA5R0FET/WHA5R0FET/KiCad/WHA_52.pretty")(options "")(descr ""))
+  (lib (name "WHA5R0FET")(type "KiCad")(uri "C:/Users/barbe/Desktop/LIB_WHA5R0FET/WHA5R0FET/KiCad/WHA5R0FET.pretty")(options "")(descr ""))
+)

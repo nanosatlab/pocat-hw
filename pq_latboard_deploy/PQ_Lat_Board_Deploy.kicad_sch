@@ -89,192 +89,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x10_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -2085,118 +1899,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_9"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND_9"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_9_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_9_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -2535,6 +2237,183 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WHA5R0FET:WHA5R0FET"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "WHA5R0FET"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESAD1524W60L508D254"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/WHA5R0FET.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "5 Ohms +/-1% 0.5W, 1/2W Through Hole Resistor Axial Wirewound"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "588-WHA5R0FET"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=588-WHA5R0FET"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Ohmite"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "WHA5R0FET"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "WHA5R0FET_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3075,6 +2954,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "COMMS antenna thermal knife\n"
+		(exclude_from_sim no)
+		(at 50.8 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cb28630-cd72-4fa0-86f1-1ba1f35aa8f7")
+	)
 	(text "Temperature sensor"
 		(exclude_from_sim no)
 		(at 180.34 85.09 0)
@@ -3088,7 +2978,7 @@
 	)
 	(text "Mounting holes\n"
 		(exclude_from_sim no)
-		(at 50.8 114.3 0)
+		(at 52.07 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3096,17 +2986,6 @@
 			(justify left bottom)
 		)
 		(uuid "181517da-9ac4-4937-8c8f-10f2dcdc7bad")
-	)
-	(text "COMMS antenna coaxial connector\n"
-		(exclude_from_sim no)
-		(at 50.8 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27591d7f-4385-4d8e-9002-5f910e6e706c")
 	)
 	(text "Solar Cell\n"
 		(exclude_from_sim no)
@@ -3121,7 +3000,7 @@
 	)
 	(text "Logos\n"
 		(exclude_from_sim no)
-		(at 50.8 153.035 0)
+		(at 52.705 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3207,7 +3086,7 @@
 	)
 	(no_connect
 		(at 148.59 88.9)
-		(uuid "77d7d16a-7828-4f25-a6b4-cba53562e414")
+		(uuid "5655970a-e656-4368-a99d-f8895f89599a")
 	)
 	(wire
 		(pts
@@ -3228,6 +3107,16 @@
 			(type default)
 		)
 		(uuid "0197d0c0-6543-4e92-8da4-d42ccb685452")
+	)
+	(polyline
+		(pts
+			(xy 105.41 53.34) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0470b496-1e70-4afd-ae91-77df8174bc5b")
 	)
 	(wire
 		(pts
@@ -3361,7 +3250,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 111.76) (xy 49.53 146.05)
+			(xy 50.8 99.06) (xy 50.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3471,7 +3360,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 150.495) (xy 49.53 179.07)
+			(xy 51.435 138.43) (xy 51.435 167.005)
 		)
 		(stroke
 			(width 0)
@@ -3551,7 +3440,7 @@
 	)
 	(polyline
 		(pts
-			(xy 105.41 150.495) (xy 105.41 179.07)
+			(xy 107.315 138.43) (xy 107.315 167.005)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +3450,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 111.76) (xy 105.41 111.76)
+			(xy 50.8 99.06) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3641,7 +3530,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 150.495) (xy 105.41 150.495)
+			(xy 51.435 138.43) (xy 107.315 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3729,6 +3618,16 @@
 		)
 		(uuid "af83edf9-369e-4ef6-9b3a-a8b9efdbb9cb")
 	)
+	(polyline
+		(pts
+			(xy 49.53 53.34) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12ced14-667d-4c46-9338-f25683197572")
+	)
 	(wire
 		(pts
 			(xy 184.15 109.22) (xy 190.5 109.22)
@@ -3769,16 +3668,6 @@
 		)
 		(uuid "be593810-d217-41df-9c17-b1f09fbaa774")
 	)
-	(polyline
-		(pts
-			(xy 49.53 82.55) (xy 49.53 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d8163f-c5ff-4e3c-9c8b-5545c5018ab9")
-	)
 	(wire
 		(pts
 			(xy 186.69 116.84) (xy 184.15 116.84)
@@ -3788,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "c7e22ca4-5417-4289-a32d-abea8479b05a")
+	)
+	(polyline
+		(pts
+			(xy 49.53 53.34) (xy 105.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a69430-563d-4c74-b0bc-101b3c4ac9a4")
 	)
 	(polyline
 		(pts
@@ -3811,23 +3710,23 @@
 	)
 	(polyline
 		(pts
-			(xy 105.41 105.41) (xy 105.41 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd5cea38-3d8f-432f-b7b7-54653d2c3ae6")
-	)
-	(polyline
-		(pts
-			(xy 105.41 146.05) (xy 49.53 146.05)
+			(xy 106.68 133.35) (xy 50.8 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf6b2d5b-c332-4905-838c-33736cd67679")
+	)
+	(polyline
+		(pts
+			(xy 49.53 93.98) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f80acc-db5f-4b26-83e9-7cda7428fb97")
 	)
 	(wire
 		(pts
@@ -3848,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "d453e13c-f7ca-46f8-a3f7-2d8211356eef")
-	)
-	(polyline
-		(pts
-			(xy 49.53 82.55) (xy 105.41 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d663ab64-5f95-4bf6-ae4d-05fa694a3113")
 	)
 	(wire
 		(pts
@@ -3889,16 +3778,6 @@
 		)
 		(uuid "da8de18a-0a6c-44c7-a44f-ef85e2209a13")
 	)
-	(polyline
-		(pts
-			(xy 49.53 105.41) (xy 105.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e06ac80f-f936-448d-ae8c-7f079f20209e")
-	)
 	(wire
 		(pts
 			(xy 186.69 116.84) (xy 190.5 116.84)
@@ -3911,7 +3790,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 179.07) (xy 105.41 179.07)
+			(xy 51.435 167.005) (xy 107.315 167.005)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +3800,7 @@
 	)
 	(polyline
 		(pts
-			(xy 105.41 111.76) (xy 105.41 146.05)
+			(xy 106.68 99.06) (xy 106.68 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3948,6 +3827,16 @@
 			(type default)
 		)
 		(uuid "fd580c22-a3ac-4641-9a67-0a75c86c7017")
+	)
+	(label "BURNCOMMS"
+		(at 68.58 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "043c96e5-42b1-48b5-897e-9967af20dec2")
 	)
 	(label "SOLAR"
 		(at 129.54 124.46 90)
@@ -4008,16 +3897,6 @@
 			(justify right bottom)
 		)
 		(uuid "3c000ecd-e15e-4bef-9a81-a88e451158fe")
-	)
-	(label "Antenna Connector"
-		(at 85.09 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41694ee8-6a64-4765-bdab-982b4740b845")
 	)
 	(label "VCC"
 		(at 137.16 124.46 90)
@@ -4099,6 +3978,16 @@
 		)
 		(uuid "b2499854-77c6-458d-9ce8-c57712890c80")
 	)
+	(label "BURNCOMMS"
+		(at 68.58 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2e7aac3-2a48-46a5-b1df-e6ede98f5057")
+	)
 	(label "SDA"
 		(at 139.7 124.46 90)
 		(effects
@@ -4139,16 +4028,6 @@
 		)
 		(uuid "e4a33ace-3e56-49f7-ba19-2365038834f7")
 	)
-	(label "Antenna Connector"
-		(at 55.88 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbdbae26-938b-44d4-b346-a32f4b14efcb")
-	)
 	(label "PH-"
 		(at 218.44 64.77 0)
 		(effects
@@ -4158,127 +4037,6 @@
 			(justify left bottom)
 		)
 		(uuid "ffc629dc-a26d-4f4c-914b-3803b4535650")
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 55.88 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "04f2280b-a72e-4e65-8d92-46bc801073d9")
-		(property "Reference" "H5"
-			(at 58.42 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 58.42 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly"
-			(at 55.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "N/A"
-			(at 55.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "N/A"
-			(at 55.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 1" "N/A"
-			(at 55.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "N/A"
-			(at 55.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12708de4-0211-41f4-a0d7-8b0f3a08d4b2")
-		)
-		(instances
-			(project "PQ_Lat_Board"
-				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4504,7 +4262,7 @@
 			(uuid "b50dcdc6-c20b-43b2-b72d-b355ed56d2ff")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "GA0")
 					(unit 1)
@@ -4582,7 +4340,7 @@
 			(uuid "1722e3ac-a97b-4aff-8ffa-57737ecbd3d7")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0111")
 					(unit 1)
@@ -4591,8 +4349,150 @@
 		)
 	)
 	(symbol
+		(lib_id "WHA5R0FET:WHA5R0FET")
+		(at 68.58 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11254c53-e942-48e7-a437-38d492c76d32")
+		(property "Reference" "R1"
+			(at 77.47 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WHA5R0FET"
+			(at 77.47 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WHA5R0FET:RESAD1524W60L508D254"
+			(at 82.55 164.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/WHA5R0FET.pdf"
+			(at 82.55 264.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "5 Ohms +/-1% 0.5W, 1/2W Through Hole Resistor Axial Wirewound"
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 82.55 464.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "588-WHA5R0FET"
+			(at 82.55 564.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=588-WHA5R0FET"
+			(at 82.55 664.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Ohmite"
+			(at 82.55 764.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "WHA5R0FET"
+			(at 82.55 864.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "d3ecafab-7625-4d41-8486-d31573466004")
+		)
+		(pin "2"
+			(uuid "3f669007-eaa4-40bf-8990-e194415d5a45")
+		)
+		(instances
+			(project "PQ_Lat_Board_Deploy"
+				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 82.55 120.65 0)
+		(at 83.82 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4603,7 +4503,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a0f0f07-e0ce-4fdf-89cc-568c89c15ac3")
 		(property "Reference" "H2"
-			(at 85.09 118.1099 0)
+			(at 86.36 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4614,7 +4514,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 120.6499 0)
+			(at 86.36 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4625,7 +4525,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 82.55 120.65 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4636,7 +4536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 120.65 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4647,7 +4547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 120.65 0)
+			(at 83.82 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4657,7 +4557,7 @@
 			)
 		)
 		(property "Manufacturer 1" "N/A"
-			(at 82.55 120.65 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4668,7 +4568,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "N/A"
-			(at 82.55 120.65 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +4579,7 @@
 			)
 		)
 		(property "Supplier 1" "N/A"
-			(at 82.55 120.65 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4590,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "N/A"
-			(at 82.55 120.65 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,7 +4604,7 @@
 			(uuid "a4bf7713-02c7-48e0-a0df-1886b9a90a54")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "H2")
 					(unit 1)
@@ -4715,7 +4615,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 82.55 123.19 0)
+		(at 83.82 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4726,7 +4626,7 @@
 		(fields_autoplaced yes)
 		(uuid "1edf9a38-c7a4-4032-9c80-9d34c79052b4")
 		(property "Reference" "#PWR0108"
-			(at 82.55 129.54 0)
+			(at 83.82 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,7 +4637,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 128.27 0)
+			(at 83.82 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4747,7 +4647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 123.19 0)
+			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 123.19 0)
+			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4669,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 123.19 0)
+			(at 83.82 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4782,7 +4682,7 @@
 			(uuid "441ea506-868a-4878-9809-a8fc98b190c2")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0108")
 					(unit 1)
@@ -4792,7 +4692,7 @@
 	)
 	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 80.645 174.625 0)
+		(at 82.55 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4803,7 +4703,7 @@
 		(fields_autoplaced yes)
 		(uuid "210e0dfd-0ff2-4a78-8685-331bfe91655c")
 		(property "Reference" "Annotation6"
-			(at 86.36 167.64 0)
+			(at 88.265 155.575 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4814,7 +4714,7 @@
 			)
 		)
 		(property "Value" "Nanosatlab"
-			(at 86.36 170.18 0)
+			(at 88.265 158.115 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4825,7 +4725,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:NSL-small"
-			(at 80.645 174.625 0)
+			(at 82.55 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4836,7 +4736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 174.625 0)
+			(at 82.55 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +4747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 174.625 0)
+			(at 82.55 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4857,7 +4757,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation6")
 					(unit 1)
@@ -5089,7 +4989,7 @@
 			(uuid "9a8be82b-441e-4074-92a0-c184900562bf")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "GA1")
 					(unit 1)
@@ -5167,7 +5067,7 @@
 			(uuid "b55787a6-470b-4108-82bb-332826b1a212")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0106")
 					(unit 1)
@@ -5178,7 +5078,7 @@
 	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
-		(at 82.55 137.16 0)
+		(at 83.82 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5189,7 +5089,7 @@
 		(fields_autoplaced yes)
 		(uuid "3988a282-eb43-460c-8c6b-c8585dd0b408")
 		(property "Reference" "#PWR0110"
-			(at 82.55 143.51 0)
+			(at 83.82 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5200,7 +5100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 142.24 0)
+			(at 83.82 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5210,7 +5110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 137.16 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +5121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 137.16 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,7 +5132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 137.16 0)
+			(at 83.82 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5245,7 +5145,7 @@
 			(uuid "16225da6-93f4-4fa5-8a06-b3d90908e36f")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0110")
 					(unit 1)
@@ -5255,7 +5155,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 134.62 0)
+		(at 59.69 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5266,7 +5166,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c346c2f-3fec-4ab5-b854-723e89b47e66")
 		(property "Reference" "H3"
-			(at 60.96 132.0799 0)
+			(at 62.23 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5277,7 +5177,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 60.96 134.6199 0)
+			(at 62.23 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5288,7 +5188,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 58.42 134.62 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5299,7 +5199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 134.62 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,7 +5210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 134.62 0)
+			(at 59.69 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5320,7 +5220,7 @@
 			)
 		)
 		(property "Manufacturer 1" "N/A"
-			(at 58.42 134.62 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,7 +5231,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "N/A"
-			(at 58.42 134.62 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5342,7 +5242,7 @@
 			)
 		)
 		(property "Supplier 1" "N/A"
-			(at 58.42 134.62 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5253,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "N/A"
-			(at 58.42 134.62 0)
+			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,7 +5267,7 @@
 			(uuid "8c6c249b-9c82-4ba2-a61c-803a55c5ded9")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "H3")
 					(unit 1)
@@ -5377,7 +5277,7 @@
 	)
 	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 80.645 161.925 0)
+		(at 82.55 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5388,7 +5288,7 @@
 		(fields_autoplaced yes)
 		(uuid "56e7f194-83b4-46ca-8925-2d2bbb107c82")
 		(property "Reference" "Annotation2"
-			(at 86.36 154.94 0)
+			(at 88.265 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5399,7 +5299,7 @@
 			)
 		)
 		(property "Value" "snail"
-			(at 86.36 157.48 0)
+			(at 88.265 145.415 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5410,7 +5310,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:Snail"
-			(at 80.645 161.925 0)
+			(at 82.55 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,7 +5321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 161.925 0)
+			(at 82.55 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5432,7 +5332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 161.925 0)
+			(at 82.55 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5442,7 +5342,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation2")
 					(unit 1)
@@ -5620,7 +5520,7 @@
 			(uuid "78dc2b2f-5865-4146-8f93-d105603b8d39")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "IC1")
 					(unit 1)
@@ -5630,7 +5530,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 82.55 134.62 0)
+		(at 83.82 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5641,7 +5541,7 @@
 		(fields_autoplaced yes)
 		(uuid "629f9d82-748d-4e29-b146-f1dd74817e81")
 		(property "Reference" "H4"
-			(at 85.09 132.0799 0)
+			(at 86.36 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5652,7 +5552,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 134.6199 0)
+			(at 86.36 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5663,7 +5563,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 82.55 134.62 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 134.62 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 134.62 0)
+			(at 83.82 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5695,7 +5595,7 @@
 			)
 		)
 		(property "Manufacturer 1" "N/A"
-			(at 82.55 134.62 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5706,7 +5606,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "N/A"
-			(at 82.55 134.62 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5717,7 +5617,7 @@
 			)
 		)
 		(property "Supplier 1" "N/A"
-			(at 82.55 134.62 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5728,7 +5628,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "N/A"
-			(at 82.55 134.62 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,86 +5642,9 @@
 			(uuid "74db5ca1-7c3a-4174-b699-b5e257b95059")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_9")
-		(lib_id "power:GND")
-		(at 80.01 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64c8e0be-6e61-4f91-a62b-3159146f7b86")
-		(property "Reference" "#PWR0103"
-			(at 80.01 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a2750d8-2886-4e86-82df-fcdbb35941eb")
-		)
-		(instances
-			(project "PQ_Lat_Board"
-				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -5897,7 +5720,7 @@
 			(uuid "fc280032-84b3-45bd-ac5c-1c93b2e24325")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0102")
 					(unit 1)
@@ -6129,7 +5952,7 @@
 			(uuid "623119cb-0fcc-4b70-b6ee-a9e58fe16da0")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "VA0")
 					(unit 1)
@@ -6207,7 +6030,7 @@
 			(uuid "0fed367a-e15e-491b-8e35-fb3037bc3d64")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0105")
 					(unit 1)
@@ -6217,7 +6040,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 120.65 0)
+		(at 59.69 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6228,7 +6051,7 @@
 		(fields_autoplaced yes)
 		(uuid "803f7b8f-2fd9-41f6-9224-3c874cf98333")
 		(property "Reference" "H1"
-			(at 60.96 118.1099 0)
+			(at 62.23 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6239,7 +6062,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 60.96 120.6499 0)
+			(at 62.23 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6250,7 +6073,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 58.42 120.65 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6261,7 +6084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 120.65 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +6095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 120.65 0)
+			(at 59.69 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6282,7 +6105,7 @@
 			)
 		)
 		(property "Manufacturer 1" "N/A"
-			(at 58.42 120.65 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +6116,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "N/A"
-			(at 58.42 120.65 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6127,7 @@
 			)
 		)
 		(property "Supplier 1" "N/A"
-			(at 58.42 120.65 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6138,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "N/A"
-			(at 58.42 120.65 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6152,7 @@
 			(uuid "8e518853-7d81-48ee-925b-598c60b992f6")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "H1")
 					(unit 1)
@@ -6408,7 +6231,7 @@
 			(uuid "a88b37fc-2bb5-4d22-a900-591b45adfcc4")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "D2")
 					(unit 1)
@@ -6486,7 +6309,7 @@
 			(uuid "169d3371-4864-47ba-943b-7d357bbe9303")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0101")
 					(unit 1)
@@ -6496,7 +6319,7 @@
 	)
 	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 55.88 180.975 0)
+		(at 57.785 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6507,7 +6330,7 @@
 		(fields_autoplaced yes)
 		(uuid "9df81e47-745e-4fcd-a9a6-6a077b923fd1")
 		(property "Reference" "Annotation7"
-			(at 62.23 173.99 0)
+			(at 64.135 161.925 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6518,7 +6341,7 @@
 			)
 		)
 		(property "Value" "UPC"
-			(at 62.23 176.53 0)
+			(at 64.135 164.465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6529,7 +6352,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:UPC_small"
-			(at 55.88 180.975 0)
+			(at 57.785 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6540,7 +6363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 180.975 0)
+			(at 57.785 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6374,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 180.975 0)
+			(at 57.785 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6561,7 +6384,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation7")
 					(unit 1)
@@ -6793,7 +6616,7 @@
 			(uuid "6ae2900a-21a9-4a06-a66a-bb23510df5f9")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "VA1")
 					(unit 1)
@@ -6803,7 +6626,7 @@
 	)
 	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 80.645 168.275 0)
+		(at 82.55 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6814,7 +6637,7 @@
 		(fields_autoplaced yes)
 		(uuid "abd30770-2427-4518-af7f-ad546b2c4a38")
 		(property "Reference" "Annotation5"
-			(at 86.995 161.29 0)
+			(at 88.9 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6825,7 +6648,7 @@
 			)
 		)
 		(property "Value" "telecos"
-			(at 86.995 163.83 0)
+			(at 88.9 151.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6836,7 +6659,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:Telecos"
-			(at 80.645 168.275 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6847,7 +6670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 168.275 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6858,7 +6681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 168.275 0)
+			(at 82.55 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6868,7 +6691,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation5")
 					(unit 1)
@@ -6993,7 +6816,7 @@
 			(uuid "cf666dd4-501d-42d5-ae95-4a4a06d3e26a")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "C1")
 					(unit 1)
@@ -7003,7 +6826,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 123.19 0)
+		(at 59.69 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7014,7 +6837,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad207f1a-9cdb-4ff8-bd4f-7185bae2fbb0")
 		(property "Reference" "#PWR0107"
-			(at 58.42 129.54 0)
+			(at 59.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +6848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 128.27 0)
+			(at 59.69 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7035,7 +6858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 123.19 0)
+			(at 59.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +6869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 123.19 0)
+			(at 59.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +6880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 123.19 0)
+			(at 59.69 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7070,7 +6893,7 @@
 			(uuid "ef97313c-d3be-44aa-bb44-ef6f6a9e8a26")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0107")
 					(unit 1)
@@ -7079,90 +6902,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 80.01 92.71 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "adf5bb80-6f37-4b53-9835-1deb99e4cb06")
-		(property "Reference" "J2"
-			(at 76.2 91.7332 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 76.2 94.2732 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 80.01 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "84c79011-d061-4757-b71f-a39c618639e9")
-		)
-		(pin "1"
-			(uuid "7afed0c1-3371-49b8-85f9-433b15c29495")
-		)
-		(instances
-			(project "PQ_Lat_Board"
-				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 55.88 161.925 0)
+		(at 57.785 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7173,7 +6914,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae9fa108-c086-4c7f-bb00-57491caea4b3")
 		(property "Reference" "Annotation1"
-			(at 62.23 154.94 0)
+			(at 64.135 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7184,7 +6925,7 @@
 			)
 		)
 		(property "Value" "bridgemaker"
-			(at 62.23 157.48 0)
+			(at 64.135 145.415 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7195,7 +6936,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:Bridgemaker"
-			(at 55.88 161.925 0)
+			(at 57.785 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,7 +6947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 161.925 0)
+			(at 57.785 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +6958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 161.925 0)
+			(at 57.785 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7227,7 +6968,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation1")
 					(unit 1)
@@ -7459,7 +7200,7 @@
 			(uuid "eaaf9bf2-b710-49e1-acdf-74cedc1f1f9b")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "VA2")
 					(unit 1)
@@ -7470,7 +7211,7 @@
 	(symbol
 		(lib_name "GND_10")
 		(lib_id "power:GND")
-		(at 58.42 137.16 0)
+		(at 59.69 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7481,7 +7222,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63eed8b-ea43-4a29-9849-b5cb74e742a6")
 		(property "Reference" "#PWR0109"
-			(at 58.42 143.51 0)
+			(at 59.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +7233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 142.24 0)
+			(at 59.69 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7502,7 +7243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 137.16 0)
+			(at 59.69 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,7 +7254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 137.16 0)
+			(at 59.69 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,7 +7265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 137.16 0)
+			(at 59.69 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7537,7 +7278,7 @@
 			(uuid "7fd56b21-5670-4b2f-b8d1-22d5113ffdf5")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "#PWR0109")
 					(unit 1)
@@ -7547,7 +7288,7 @@
 	)
 	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 80.645 180.975 0)
+		(at 82.55 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7558,7 +7299,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd8fa222-c0bc-4ae7-9c8c-ada3c9dcf941")
 		(property "Reference" "Annotation8"
-			(at 86.995 173.99 0)
+			(at 88.9 161.925 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7569,7 +7310,7 @@
 			)
 		)
 		(property "Value" "GRSS"
-			(at 86.995 176.53 0)
+			(at 88.9 164.465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7580,7 +7321,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:GRSS"
-			(at 80.645 180.975 0)
+			(at 82.55 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7591,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 180.975 0)
+			(at 82.55 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7602,7 +7343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 180.975 0)
+			(at 82.55 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7612,7 +7353,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation8")
 					(unit 1)
@@ -7694,7 +7435,7 @@
 			(uuid "99086049-dd70-4b3d-ab67-b786a4a36dd1")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "SC1")
 					(unit 1)
@@ -7703,8 +7444,88 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 86.36 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caf35d62-34d7-4ea5-b20a-405c52e3758e")
+		(property "Reference" "#PWR01"
+			(at 92.71 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6d0f909-65c4-49ad-b7fe-f8e8ea3427ee")
+		)
+		(instances
+			(project "PQ_Lat_Board_Deploy"
+				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 55.88 168.275 0)
+		(at 57.785 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7715,7 +7536,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce08aec2-87fe-4562-a222-77c6a0aad166")
 		(property "Reference" "Annotation3"
-			(at 62.23 161.29 0)
+			(at 64.135 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7726,7 +7547,7 @@
 			)
 		)
 		(property "Value" "pocat-lektron"
-			(at 62.23 163.83 0)
+			(at 64.135 151.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7737,7 +7558,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:pocat_lektron"
-			(at 55.88 168.275 0)
+			(at 57.785 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 168.275 0)
+			(at 57.785 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7759,7 +7580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 168.275 0)
+			(at 57.785 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7769,7 +7590,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation3")
 					(unit 1)
@@ -7779,7 +7600,7 @@
 	)
 	(symbol
 		(lib_id "-nsl_symbols:Silkscreen_Annotation")
-		(at 55.88 174.625 0)
+		(at 57.785 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7790,7 +7611,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1bda0af-2600-4aef-9662-f270921fc690")
 		(property "Reference" "Annotation4"
-			(at 62.23 167.64 0)
+			(at 64.135 155.575 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7801,7 +7622,7 @@
 			)
 		)
 		(property "Value" "Logo lektron"
-			(at 62.23 170.18 0)
+			(at 64.135 158.115 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7812,7 +7633,7 @@
 			)
 		)
 		(property "Footprint" "symbols-nsl:NSL_hexagon"
-			(at 55.88 174.625 0)
+			(at 57.785 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7823,7 +7644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 174.625 0)
+			(at 57.785 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7834,7 +7655,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 174.625 0)
+			(at 57.785 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7844,7 +7665,7 @@
 			)
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "Annotation4")
 					(unit 1)
@@ -8076,7 +7897,7 @@
 			(uuid "395c3ba7-786d-4ec3-8eeb-36e5c6178e15")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "GA2")
 					(unit 1)
@@ -8199,7 +8020,7 @@
 			(uuid "72269c65-933d-4c9d-85c9-c97aa9facb3a")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "D1")
 					(unit 1)
@@ -8350,9 +8171,231 @@
 			(uuid "1310cb7c-4762-4ac8-8741-8e2cf9659ca8")
 		)
 		(instances
-			(project "PQ_Lat_Board"
+			(project "PQ_Lat_Board_Deploy"
 				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 86.36 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f19c8a91-52b7-4b88-a865-c9381cb09072")
+		(property "Reference" "#PWR02"
+			(at 92.71 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c4cdd70-41f2-42ab-a408-1a23a5d166c0")
+		)
+		(instances
+			(project "PQ_Lat_Board_Deploy"
+				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WHA5R0FET:WHA5R0FET")
+		(at 68.58 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6ab7bf9-1445-4500-aeb1-ea0a7865f448")
+		(property "Reference" "R2"
+			(at 77.47 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WHA5R0FET"
+			(at 77.47 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WHA5R0FET:RESAD1524W60L508D254"
+			(at 82.55 178.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/WHA5R0FET.pdf"
+			(at 82.55 278.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "5 Ohms +/-1% 0.5W, 1/2W Through Hole Resistor Axial Wirewound"
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 82.55 478.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "588-WHA5R0FET"
+			(at 82.55 578.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=588-WHA5R0FET"
+			(at 82.55 678.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Ohmite"
+			(at 82.55 778.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "WHA5R0FET"
+			(at 82.55 878.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "bb1601e5-8b80-423f-a269-cb9ed7ddc233")
+		)
+		(pin "2"
+			(uuid "f8c6ac1a-d75a-46b0-8ca7-0b59dfc84a5a")
+		)
+		(instances
+			(project "PQ_Lat_Board_Deploy"
+				(path "/4da848d5-e65a-4ace-88f8-d9d6d6b9afa2"
+					(reference "R2")
 					(unit 1)
 				)
 			)
